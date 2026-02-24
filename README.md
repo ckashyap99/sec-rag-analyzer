@@ -57,6 +57,8 @@ pip install -r requirements.txt
 ollama pull mistral
 3️⃣ Run UI
 streamlit run app.py
+
+
 📌 Example Query
 
 What risks did Tesla disclose in 2023?
