@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Conda environments
+rag_env/
+env/
+venv/
+conda_envs/
+
+# Streamlit
+.streamlit/
+
+# Ollama
+.ollama/
+
+# Data / Outputs
+outputs/
+DATA/
+*.faiss
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
