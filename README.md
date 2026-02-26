@@ -10,25 +10,19 @@ This project combines **semantic search (FAISS)** with a **locally hosted LLM (O
 
 ## 🏗️ Architecture
 
-
-Streamlit UI
-↓
-FAISS Vector Search
-↓
-BAAI/bge-base-en-v1.5 (GPU embeddings)
-↓
-Ollama (Mistral 7B)
-
+- **Streamlit UI**
+- **FAISS Vector Search**
+- **BAAI/bge-base-en-v1.5** (GPU embeddings)
+- **Ollama (Mistral 7B)**
 
 ---
 
 ## 🖥️ Application Screenshots
 
-### 🔹 Main UI
-![Main UI](screenshots/ui_home.png)
+> Add screenshots in the `screenshots/` folder and update paths below
 
-### 🔹 Sample Query Result
-![Query Result](screenshots/query_result.png)
+![Main UI](screenshots/Screenshot (348).png)
+![Query Result](screenshots/Screenshot (352).png)
 
 ---
 
@@ -50,7 +44,7 @@ Ollama (Mistral 7B)
 - Semantic search over SEC filings  
 - Context-grounded answer generation  
 - Bullet-point financial risk summaries  
-- Fully offline execution (no OpenAI / cloud APIs)  
+- Fully offline execution (no cloud APIs)  
 - Modular RAG architecture  
 
 ---
@@ -64,20 +58,23 @@ conda create -n rag_env python=3.10
 conda activate rag_env
 pip install -r requirements.txt
 
-### 2️⃣ Install Ollama & pull model
+2️⃣ Install Ollama & pull model
 ollama pull mistral
 
-### 3️⃣ Run the application
+3️⃣ Run the application
 streamlit run app.py
 
+---
 
-## 📌 Example Query
+📌 Example Query
 
 What risks did Tesla disclose in 2023?
 
 The system retrieves relevant sections from SEC filings and generates a grounded, bullet-point risk summary.
 
-## 🧠 Future Improvements
+---
+
+🧠 Future Improvements
 
 Improved chunking strategy
 
@@ -91,6 +88,8 @@ Citation formatting
 
 Answer confidence scoring
 
-## 📄 Disclaimer
+---
+
+📄 Disclaimer
 
 This project is for educational and research purposes only and does not constitute financial or investment advice.
