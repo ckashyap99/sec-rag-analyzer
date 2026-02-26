@@ -16,12 +16,12 @@ This project combines **semantic search (FAISS)** with a **locally hosted LLM (O
 - **Ollama (Mistral 7B)**
 
 ---
-
 ## 🖥️ Application Screenshots
 
-> Add screenshots in the `screenshots/` folder and update paths below
-
+### 🔹 Main UI
 ![Main UI](screenshots/Screenshot (348).png)
+
+### 🔹 Sample Query Result
 ![Query Result](screenshots/Screenshot (352).png)
 
 ---
